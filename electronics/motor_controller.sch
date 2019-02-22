@@ -16993,6 +16993,328 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8-PAD" urn="urn:adsk.eagle:footprint:14250/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.8 mm, round</description>
+<wire x1="0" y1="2.921" x2="0" y2="2.667" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.667" x2="0" y2="-2.921" width="0.0508" layer="21"/>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="39"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="40"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<pad name="B2,8" x="0" y="0" drill="2.8" diameter="5.334"/>
+</package>
+<package name="3,0-PAD" urn="urn:adsk.eagle:footprint:14251/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.0 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="39"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<pad name="B3,0" x="0" y="0" drill="3" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+</package>
+<package name="3,2-PAD" urn="urn:adsk.eagle:footprint:14252/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.2 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.1524" layer="21"/>
+<pad name="B3,2" x="0" y="0" drill="3.2" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,2</text>
+</package>
+<package name="3,3-PAD" urn="urn:adsk.eagle:footprint:14253/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.3 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<pad name="B3,3" x="0" y="0" drill="3.3" diameter="5.842"/>
+</package>
+<package name="3,6-PAD" urn="urn:adsk.eagle:footprint:14254/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.6 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.397" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.397" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<pad name="B3,6" x="0" y="0" drill="3.6" diameter="5.842"/>
+</package>
+<package name="4,1-PAD" urn="urn:adsk.eagle:footprint:14255/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.1 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="5.08" width="2" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.2032" layer="21"/>
+<pad name="B4,1" x="0" y="0" drill="4.1" diameter="8"/>
+</package>
+<package name="4,3-PAD" urn="urn:adsk.eagle:footprint:14256/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.3 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<pad name="B4,3" x="0" y="0" drill="4.3" diameter="9"/>
+</package>
+<package name="4,5-PAD" urn="urn:adsk.eagle:footprint:14257/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.5 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<pad name="B4,5" x="0" y="0" drill="4.5" diameter="9"/>
+</package>
+<package name="5,0-PAD" urn="urn:adsk.eagle:footprint:14258/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 5.0 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<pad name="B5" x="0" y="0" drill="5" diameter="9"/>
+</package>
+<package name="5,5-PAD" urn="urn:adsk.eagle:footprint:14259/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 5.5 mm, round</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="43"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="39"/>
+<circle x="0" y="0" radius="5.588" width="2" layer="40"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<pad name="B5,5" x="0" y="0" drill="5.5" diameter="9"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,8-PAD" urn="urn:adsk.eagle:package:14281/1" type="box" library_version="1">
+<description>MOUNTING PAD 2.8 mm, round</description>
+<packageinstances>
+<packageinstance name="2,8-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,0-PAD" urn="urn:adsk.eagle:package:14280/1" type="box" library_version="1">
+<description>MOUNTING PAD 3.0 mm, round</description>
+<packageinstances>
+<packageinstance name="3,0-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,2-PAD" urn="urn:adsk.eagle:package:14282/1" type="box" library_version="1">
+<description>MOUNTING PAD 3.2 mm, round</description>
+<packageinstances>
+<packageinstance name="3,2-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,3-PAD" urn="urn:adsk.eagle:package:14283/1" type="box" library_version="1">
+<description>MOUNTING PAD 3.3 mm, round</description>
+<packageinstances>
+<packageinstance name="3,3-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,6-PAD" urn="urn:adsk.eagle:package:14284/1" type="box" library_version="1">
+<description>MOUNTING PAD 3.6 mm, round</description>
+<packageinstances>
+<packageinstance name="3,6-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4,1-PAD" urn="urn:adsk.eagle:package:14285/1" type="box" library_version="1">
+<description>MOUNTING PAD 4.1 mm, round</description>
+<packageinstances>
+<packageinstance name="4,1-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4,3-PAD" urn="urn:adsk.eagle:package:14286/1" type="box" library_version="1">
+<description>MOUNTING PAD 4.3 mm, round</description>
+<packageinstances>
+<packageinstance name="4,3-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4,5-PAD" urn="urn:adsk.eagle:package:14287/1" type="box" library_version="1">
+<description>MOUNTING PAD 4.5 mm, round</description>
+<packageinstances>
+<packageinstance name="4,5-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="5,0-PAD" urn="urn:adsk.eagle:package:14288/1" type="box" library_version="1">
+<description>MOUNTING PAD 5.0 mm, round</description>
+<packageinstances>
+<packageinstance name="5,0-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="5,5-PAD" urn="urn:adsk.eagle:package:14291/1" type="box" library_version="1">
+<description>MOUNTING PAD 5.5 mm, round</description>
+<packageinstances>
+<packageinstance name="5,5-PAD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOUNT-PAD" urn="urn:adsk.eagle:symbol:14249/1" library_version="1">
+<wire x1="0.254" y1="2.032" x2="2.032" y2="0.254" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
+<wire x1="-2.032" y1="0.254" x2="-0.254" y2="2.032" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
+<wire x1="-2.032" y1="-0.254" x2="-0.254" y2="-2.032" width="1.016" layer="94" curve="75.749967" cap="flat"/>
+<wire x1="0.254" y1="-2.032" x2="2.032" y2="-0.254" width="1.016" layer="94" curve="75.749967" cap="flat"/>
+<circle x="0" y="0" radius="1.524" width="0.0508" layer="94"/>
+<text x="2.794" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.794" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MOUNT" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:14303/1" prefix="H" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B2,8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14281/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="3,0-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,0"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14280/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.2" package="3,2-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14282/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3" package="3,3-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14283/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.6" package="3,6-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14284/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.1" package="4,1-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14285/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.3" package="4,3-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14286/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.5" package="4,5-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B4,5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14287/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0" package="5,0-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14288/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.5" package="5,5-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B5,5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14291/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17009,8 +17331,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="DRV1" library="SamacSys_Parts" deviceset="VNH5019ATR-E" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
-<part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17022,8 +17342,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="DRV2" library="SamacSys_Parts" deviceset="VNH5019ATR-E" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17035,8 +17353,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="DRV3" library="SamacSys_Parts" deviceset="VNH5019ATR-E" device=""/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
-<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17048,8 +17364,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="DRV4" library="SamacSys_Parts" deviceset="VNH5019ATR-E" device=""/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
-<part name="P+32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17061,8 +17375,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="DRV5" library="SamacSys_Parts" deviceset="VNH5019ATR-E" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
-<part name="P+42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17074,8 +17386,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="DRV6" library="SamacSys_Parts" deviceset="VNH5019ATR-E" device=""/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3K3"/>
-<part name="P+52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17102,19 +17412,21 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1" value="MOUNT-PAD-ROUND3.6"/>
+<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1" value="MOUNT-PAD-ROUND3.6"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PWR" gate="-1" x="-76.2" y="-86.36" smashed="yes" rot="R180">
-<attribute name="NAME" x="-77.47" y="-85.471" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-90.17" y="-85.471" size="1.778" layer="96" rot="R180"/>
+<instance part="PWR" gate="-1" x="-99.06" y="-86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="-100.33" y="-85.471" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-113.03" y="-85.471" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PWR" gate="-2" x="-76.2" y="-73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="-77.47" y="-72.771" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-90.17" y="-72.771" size="1.778" layer="96" rot="R180"/>
+<instance part="PWR" gate="-2" x="-99.06" y="-73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="-100.33" y="-72.771" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-113.03" y="-72.771" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+6" gate="1" x="-55.88" y="-68.58" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="-71.12" size="1.778" layer="96" rot="R90"/>
@@ -17126,19 +17438,13 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="6.35" y="144.78" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="6.35" y="142.24" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R13" gate="G$1" x="-43.18" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="-44.6786" y="130.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-39.878" y="130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R13" gate="G$1" x="-45.72" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-47.2186" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-42.418" y="130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R14" gate="G$1" x="-35.56" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="-37.0586" y="130.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-32.258" y="130.81" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+22" gate="1" x="-43.18" y="149.86" smashed="yes">
-<attribute name="VALUE" x="-44.704" y="147.574" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+23" gate="1" x="-35.56" y="149.86" smashed="yes">
-<attribute name="VALUE" x="-37.084" y="147.574" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R15" gate="G$1" x="-38.1" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="-39.5986" y="95.25" size="1.778" layer="95" rot="R90"/>
@@ -17153,8 +17459,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <instance part="GND16" gate="1" x="50.8" y="129.54" smashed="yes">
 <attribute name="VALUE" x="48.26" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="P+24" gate="G$1" x="-50.8" y="124.46" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-45.72" y="121.92" size="1.778" layer="96" rot="R180"/>
+<instance part="P+24" gate="G$1" x="-40.64" y="152.4" smashed="yes">
+<attribute name="VALUE" x="-43.18" y="147.32" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+25" gate="1" x="-27.94" y="149.86" smashed="yes">
 <attribute name="VALUE" x="-29.464" y="147.574" size="1.778" layer="96" rot="R90"/>
@@ -17174,19 +17480,13 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="153.67" y="144.78" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="153.67" y="142.24" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R4" gate="G$1" x="104.14" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.6414" y="130.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="101.6" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="111.76" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="130.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="130.81" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+7" gate="1" x="104.14" y="149.86" smashed="yes">
-<attribute name="VALUE" x="102.616" y="147.574" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+8" gate="1" x="111.76" y="149.86" smashed="yes">
-<attribute name="VALUE" x="110.236" y="147.574" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="109.22" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.7214" y="95.25" size="1.778" layer="95" rot="R90"/>
@@ -17201,8 +17501,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <instance part="GND7" gate="1" x="198.12" y="129.54" smashed="yes">
 <attribute name="VALUE" x="195.58" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="P+9" gate="G$1" x="96.52" y="124.46" smashed="yes" rot="R90">
-<attribute name="VALUE" x="101.6" y="121.92" size="1.778" layer="96" rot="R180"/>
+<instance part="P+9" gate="G$1" x="106.68" y="152.4" smashed="yes">
+<attribute name="VALUE" x="104.14" y="147.32" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+10" gate="1" x="119.38" y="149.86" smashed="yes">
 <attribute name="VALUE" x="117.856" y="147.574" size="1.778" layer="96" rot="R90"/>
@@ -17222,19 +17522,13 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="6.35" y="73.66" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="6.35" y="71.12" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R10" gate="G$1" x="-43.18" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="-44.6786" y="59.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-39.878" y="59.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="-45.72" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="-47.2186" y="59.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-42.418" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R11" gate="G$1" x="-35.56" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-37.0586" y="59.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-32.258" y="59.69" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+17" gate="1" x="-43.18" y="78.74" smashed="yes">
-<attribute name="VALUE" x="-44.704" y="76.454" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+18" gate="1" x="-35.56" y="78.74" smashed="yes">
-<attribute name="VALUE" x="-37.084" y="76.454" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R12" gate="G$1" x="-38.1" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-39.5986" y="24.13" size="1.778" layer="95" rot="R90"/>
@@ -17249,8 +17543,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <instance part="GND13" gate="1" x="50.8" y="58.42" smashed="yes">
 <attribute name="VALUE" x="48.26" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="P+19" gate="G$1" x="-50.8" y="53.34" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-45.72" y="50.8" size="1.778" layer="96" rot="R180"/>
+<instance part="P+19" gate="G$1" x="-40.64" y="81.28" smashed="yes">
+<attribute name="VALUE" x="-43.18" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+20" gate="1" x="-27.94" y="78.74" smashed="yes">
 <attribute name="VALUE" x="-29.464" y="76.454" size="1.778" layer="96" rot="R90"/>
@@ -17270,19 +17564,13 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="153.67" y="73.66" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="153.67" y="71.12" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R19" gate="G$1" x="104.14" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.6414" y="59.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="59.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R19" gate="G$1" x="101.6" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="59.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R20" gate="G$1" x="111.76" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="59.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="59.69" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+32" gate="1" x="104.14" y="78.74" smashed="yes">
-<attribute name="VALUE" x="102.616" y="76.454" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+33" gate="1" x="111.76" y="78.74" smashed="yes">
-<attribute name="VALUE" x="110.236" y="76.454" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R21" gate="G$1" x="109.22" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.7214" y="24.13" size="1.778" layer="95" rot="R90"/>
@@ -17297,8 +17585,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <instance part="GND22" gate="1" x="198.12" y="58.42" smashed="yes">
 <attribute name="VALUE" x="195.58" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="P+34" gate="G$1" x="96.52" y="53.34" smashed="yes" rot="R90">
-<attribute name="VALUE" x="101.6" y="50.8" size="1.778" layer="96" rot="R180"/>
+<instance part="P+34" gate="G$1" x="106.68" y="81.28" smashed="yes">
+<attribute name="VALUE" x="104.14" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+35" gate="1" x="119.38" y="78.74" smashed="yes">
 <attribute name="VALUE" x="117.856" y="76.454" size="1.778" layer="96" rot="R90"/>
@@ -17318,19 +17606,13 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="6.35" y="7.62" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="6.35" y="5.08" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R25" gate="G$1" x="-43.18" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="-44.6786" y="-6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-39.878" y="-6.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R25" gate="G$1" x="-45.72" y="-2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="-47.2186" y="-6.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-42.418" y="-6.35" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R26" gate="G$1" x="-35.56" y="-2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-37.0586" y="-6.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-32.258" y="-6.35" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+42" gate="1" x="-43.18" y="12.7" smashed="yes">
-<attribute name="VALUE" x="-44.704" y="10.414" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+43" gate="1" x="-35.56" y="12.7" smashed="yes">
-<attribute name="VALUE" x="-37.084" y="10.414" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R27" gate="G$1" x="-38.1" y="-38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-39.5986" y="-41.91" size="1.778" layer="95" rot="R90"/>
@@ -17345,8 +17627,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <instance part="GND28" gate="1" x="50.8" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="48.26" y="-10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="P+44" gate="G$1" x="-50.8" y="-12.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-45.72" y="-15.24" size="1.778" layer="96" rot="R180"/>
+<instance part="P+44" gate="G$1" x="-40.64" y="12.7" smashed="yes">
+<attribute name="VALUE" x="-43.18" y="7.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+45" gate="1" x="-27.94" y="12.7" smashed="yes">
 <attribute name="VALUE" x="-29.464" y="10.414" size="1.778" layer="96" rot="R90"/>
@@ -17366,19 +17648,13 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="153.67" y="10.16" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="153.67" y="7.62" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R31" gate="G$1" x="104.14" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.6414" y="-3.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="-3.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R31" gate="G$1" x="101.6" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="-3.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="-3.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R32" gate="G$1" x="111.76" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="-3.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="-3.81" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+52" gate="1" x="104.14" y="15.24" smashed="yes">
-<attribute name="VALUE" x="102.616" y="12.954" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+53" gate="1" x="111.76" y="15.24" smashed="yes">
-<attribute name="VALUE" x="110.236" y="12.954" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R33" gate="G$1" x="109.22" y="-35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.7214" y="-39.37" size="1.778" layer="95" rot="R90"/>
@@ -17393,8 +17669,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <instance part="GND34" gate="1" x="198.12" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="195.58" y="-7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="P+54" gate="G$1" x="96.52" y="-10.16" smashed="yes" rot="R90">
-<attribute name="VALUE" x="101.6" y="-12.7" size="1.778" layer="96" rot="R180"/>
+<instance part="P+54" gate="G$1" x="106.68" y="12.7" smashed="yes">
+<attribute name="VALUE" x="104.14" y="7.62" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+55" gate="1" x="119.38" y="15.24" smashed="yes">
 <attribute name="VALUE" x="117.856" y="12.954" size="1.778" layer="96" rot="R90"/>
@@ -17498,6 +17774,14 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <attribute name="NAME" x="270.51" y="-105.1814" size="1.778" layer="95"/>
 <attribute name="VALUE" x="270.51" y="-109.982" size="1.778" layer="96"/>
 </instance>
+<instance part="H1" gate="G$1" x="-88.9" y="-73.66" smashed="yes">
+<attribute name="NAME" x="-86.106" y="-73.0758" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-86.106" y="-76.1238" size="1.778" layer="96"/>
+</instance>
+<instance part="H2" gate="G$1" x="-88.9" y="-86.36" smashed="yes">
+<attribute name="NAME" x="-86.106" y="-85.7758" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-86.106" y="-88.8238" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17506,7 +17790,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="PWR" gate="-2" pin="K"/>
 <pinref part="P+6" gate="1" pin="V+"/>
-<wire x1="-73.66" y1="-73.66" x2="-71.12" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-73.66" x2="-91.44" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-73.66" x2="-71.12" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-73.66" x2="-66.04" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-73.66" x2="-60.96" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-73.66" x2="-55.88" y2="-73.66" width="0.1524" layer="91"/>
@@ -17523,16 +17808,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <pinref part="PS1" gate="G$1" pin="+VIN"/>
 <wire x1="-45.72" y1="-73.66" x2="-55.88" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="-55.88" y="-73.66"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="139.7" x2="-43.18" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="P+22" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="P+23" gate="1" pin="V+"/>
-<wire x1="-35.56" y1="147.32" x2="-35.56" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
+<junction x="-91.44" y="-73.66"/>
 </segment>
 <segment>
 <pinref part="DRV1" gate="G$1" pin="VBAT"/>
@@ -17555,16 +17832,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <wire x1="43.18" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="139.7" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="P+7" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="P+8" gate="1" pin="V+"/>
-<wire x1="111.76" y1="147.32" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="DRV2" gate="G$1" pin="VBAT"/>
 <wire x1="147.32" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="V+"/>
@@ -17583,16 +17850,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <wire x1="190.5" y1="147.32" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="DRV2" gate="G$1" pin="EP3"/>
 <wire x1="190.5" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="68.58" x2="-43.18" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="P+17" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="P+18" gate="1" pin="V+"/>
-<wire x1="-35.56" y1="76.2" x2="-35.56" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV3" gate="G$1" pin="VBAT"/>
@@ -17615,16 +17872,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <wire x1="43.18" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="P+32" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="P+33" gate="1" pin="V+"/>
-<wire x1="111.76" y1="76.2" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="DRV4" gate="G$1" pin="VBAT"/>
 <wire x1="147.32" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P+35" gate="1" pin="V+"/>
@@ -17645,16 +17892,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <wire x1="190.5" y1="27.94" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="2.54" x2="-43.18" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="P+42" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="R26" gate="G$1" pin="2"/>
-<pinref part="P+43" gate="1" pin="V+"/>
-<wire x1="-35.56" y1="10.16" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="DRV5" gate="G$1" pin="VBAT"/>
 <wire x1="0" y1="-27.94" x2="-27.94" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="P+45" gate="1" pin="V+"/>
@@ -17673,16 +17910,6 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <wire x1="43.18" y1="10.16" x2="43.18" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="DRV5" gate="G$1" pin="EP3"/>
 <wire x1="43.18" y1="-38.1" x2="38.1" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="5.08" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="P+52" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="P+53" gate="1" pin="V+"/>
-<wire x1="111.76" y1="12.7" x2="111.76" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV6" gate="G$1" pin="VBAT"/>
@@ -17708,8 +17935,9 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="PWR" gate="-1" pin="K"/>
-<wire x1="-73.66" y1="-86.36" x2="-71.12" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="-86.36" x2="-91.44" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="-91.44" y1="-86.36" x2="-71.12" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-86.36" x2="-66.04" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-86.36" x2="-60.96" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-86.36" x2="-55.88" y2="-86.36" width="0.1524" layer="91"/>
@@ -17728,6 +17956,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <wire x1="-50.8" y1="-76.2" x2="-50.8" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-86.36" x2="-55.88" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="-55.88" y="-86.36"/>
+<pinref part="H2" gate="G$1" pin="MOUNT"/>
+<junction x="-91.44" y="-86.36"/>
 </segment>
 <segment>
 <pinref part="DRV1" gate="G$1" pin="GNDB_1"/>
@@ -18002,8 +18232,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="DRV1" gate="G$1" pin="ENB/DIAGB"/>
-<wire x1="-43.18" y1="129.54" x2="-43.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="116.84" x2="0" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="129.54" x2="-45.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="116.84" x2="0" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -18076,8 +18306,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="DRV2" gate="G$1" pin="ENB/DIAGB"/>
-<wire x1="104.14" y1="129.54" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="129.54" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -18150,8 +18380,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="DRV3" gate="G$1" pin="ENB/DIAGB"/>
-<wire x1="-43.18" y1="58.42" x2="-43.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="58.42" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -18224,8 +18454,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="DRV4" gate="G$1" pin="ENB/DIAGB"/>
-<wire x1="104.14" y1="58.42" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="58.42" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -18298,8 +18528,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
 <pinref part="DRV5" gate="G$1" pin="ENB/DIAGB"/>
-<wire x1="-43.18" y1="-7.62" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-7.62" x2="-45.72" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -18372,8 +18602,8 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="DRV6" gate="G$1" pin="ENB/DIAGB"/>
-<wire x1="104.14" y1="-5.08" x2="104.14" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="-17.78" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-5.08" x2="101.6" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-17.78" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -18417,32 +18647,86 @@ Source: http://eshop.phoenixcontact.com .. 1751280.pdf</description>
 <segment>
 <pinref part="DRV1" gate="G$1" pin="CS_DIS"/>
 <pinref part="P+24" gate="G$1" pin="+3V3"/>
-<wire x1="0" y1="124.46" x2="-48.26" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="149.86" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="147.32" x2="-40.64" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="124.46" x2="0" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="139.7" x2="-45.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="147.32" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-40.64" y="147.32"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="147.32" x2="-35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="147.32" x2="-35.56" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV2" gate="G$1" pin="CS_DIS"/>
 <pinref part="P+9" gate="G$1" pin="+3V3"/>
-<wire x1="147.32" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="124.46" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="124.46" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="147.32" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="139.7" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<junction x="106.68" y="147.32"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="147.32" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV3" gate="G$1" pin="CS_DIS"/>
 <pinref part="P+19" gate="G$1" pin="+3V3"/>
-<wire x1="0" y1="53.34" x2="-48.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="78.74" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="76.2" x2="-40.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="68.58" x2="-45.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="76.2" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-40.64" y="76.2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="76.2" x2="-35.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="76.2" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV4" gate="G$1" pin="CS_DIS"/>
 <pinref part="P+34" gate="G$1" pin="+3V3"/>
-<wire x1="147.32" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="78.74" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="76.2" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<junction x="106.68" y="76.2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="68.58" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV5" gate="G$1" pin="CS_DIS"/>
 <pinref part="P+44" gate="G$1" pin="+3V3"/>
-<wire x1="0" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="10.16" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="7.62" x2="-40.64" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-12.7" x2="0" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="2.54" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="7.62" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-40.64" y="7.62"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="7.62" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="7.62" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV6" gate="G$1" pin="CS_DIS"/>
 <pinref part="P+54" gate="G$1" pin="+3V3"/>
-<wire x1="147.32" y1="-10.16" x2="99.06" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="7.62" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="7.62" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="7.62" x2="106.68" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="106.68" y="7.62"/>
+<wire x1="106.68" y1="-10.16" x2="147.32" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="5.08" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="7.62" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
