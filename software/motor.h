@@ -1,6 +1,6 @@
 class Motor {
 private:
-  int a, b, p;
+  int a, b, p, limit;
   int speed=0;
   bool enabled = false;
 
@@ -34,9 +34,19 @@ public:
     else if (speed > 255) speed = 255;
     if (!enabled) speed=0;
 
+    if (speed < -limit) speed = -limit;
+    else if (speed > limit) speed = limit;
+    
     setDir();
 
     analogWrite(p, abs(speed));
+  }
+
+  void setLimit (double l) {
+    disable();
+    limit = (int)map(l, 0.0, 1.0, 0, 255);
+    if (limit < -255) limit = -255;
+    else if (limit > 255) limit = 255;
   }
 
   void enable() {
