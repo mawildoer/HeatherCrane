@@ -1,7 +1,7 @@
 const int ANALOG_READ_RESOLUTION = 10;
 
 class JoystickAxis {
-protected:
+public:
   int pin;
   int raw_min, raw_max, raw_center;
   
@@ -24,7 +24,6 @@ protected:
     center = map(raw_center, raw_min, raw_max, 0.0, 1.0);
   }
 
-public:
   virtual double pos()=0; // Return a value between -1 and 1, with 0 being center of the joystick
   virtual void update()=0;
   virtual void printTuning() {
@@ -49,7 +48,7 @@ public:
   }
 };
 
-class JoystickAxisLinear : protected JoystickAxis {
+class JoystickAxisLinear : public JoystickAxis {
 protected:
   void update () {
     
@@ -77,7 +76,7 @@ public:
   }
 };
 
-class JoystickAxisLog : protected JoystickAxis {
+class JoystickAxisLog : public JoystickAxis {
 protected:
   double a,b;
   void update () {
