@@ -26,7 +26,10 @@ public:
     center = map((double)raw_center, (double)raw_min, (double)raw_max, 0.0, 1.0);
   }
 
-  virtual double pos() {Serial.println("NOT IMPLIMENTED");} // Return a value between -1 and 1, with 0 being center of the joystick
+  virtual double pos() {
+    Serial.println("NOT IMPLIMENTED");
+    return 0.0;
+  } // Return a value between -1 and 1, with 0 being center of the joystick
 
   virtual void printTuning() {
     Serial.print(pin);
@@ -65,7 +68,9 @@ public:
 
     if (abs(p) < deadband) {
       return 0.0;
-    } else return p;
+    } else {
+      return p-deadband;
+    }
   }
 
   JoystickAxisLinear(int p) : JoystickAxis(p) {}
@@ -96,7 +101,9 @@ public:
     double p = map(raw_pos, 0.0, 1.0, -1.0, 1.0);
     if (abs(p) < deadband) {
       return 0.0;
-    } else return p;
+    } else {
+      return p-deadband;
+    }
   }
 
   JoystickAxisLog(int p) : JoystickAxis(p) {}
@@ -110,4 +117,11 @@ public:
     JoystickAxis::printTuning();
     Serial.print(")");
   }
+};
+
+class Joystick {
+private:
+  JoystickAxis *rollAx, *pitchAx, *yawAx;
+public:
+  Joystick(JoystickAxis *roll, JoystickAxis *pitch, JoystickAxis *yaw) : rollAx(roll), pitchAx(pitch), yawAx(yaw) {}
 };

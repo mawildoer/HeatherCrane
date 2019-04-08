@@ -27,15 +27,18 @@ public:
     digitalWrite(a, LOW);
     digitalWrite(b, LOW);
   }
+
+  Motor (int a, int b, int p, double l) {
+    Motor(a,b,p);
+    setLimit(l);
+  }
  
   void setSpeed (float s) {
-    speed = (int)map(s,-1.0,1.0,-255.0,255.0);
-    if (speed < -255) speed = -255;
-    else if (speed > 255) speed = 255;
-    if (!enabled) speed=0;
-
+    speed = (int)map(s, -1.0, 1.0, -(double)limit, (double)limit);
+    
     if (speed < -limit) speed = -limit;
     else if (speed > limit) speed = limit;
+    if (!enabled) speed=0;
     
     setDir();
 
@@ -44,7 +47,7 @@ public:
 
   void setLimit (double l) {
     disable();
-    limit = (int)map(l, 0.0, 1.0, 0, 255);
+    limit = (int)map(l, 0.0, 1.0, 0.0, 255.0);
     if (limit < -255) limit = -255;
     else if (limit > 255) limit = 255;
   }
