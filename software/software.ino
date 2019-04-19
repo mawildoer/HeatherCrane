@@ -16,19 +16,26 @@ const double MAX_SYSTEM_VOLTAGE = 27.0;
 const double MOTOR_POWER_LIMIT = 18.0 / MAX_SYSTEM_VOLTAGE; // Drill motor voltage / Battery voltage . Could be higher as the drill's max voltage is 21V
 double motorSpeeds[4] = {0.0};
 double motorSpeedMatrix[4][3] = {
-  {1,1,1}, 
-  {1,-1,-1}, 
-  {1,-1,1}, 
-  {1,1,-1}
+  {1,1,-1}, 
+  {-1,1,-1}, 
+  {-1,1,1}, 
+  {-1,-1,-1}
 };
 
-Motor flMot(0, 1, 3, MOTOR_POWER_LIMIT); // DRV 1
-Motor frMot(19, 18, 17, MOTOR_POWER_LIMIT); // DRV 2
-Motor blMot(13, 14, 16, MOTOR_POWER_LIMIT); // DRV 3
-Motor brMot(6, 7, 4, MOTOR_POWER_LIMIT); // DRV 4
+Motor DRV1(0, 1, 3, MOTOR_POWER_LIMIT); // DRV 1
+Motor DRV2(19, 18, 17, MOTOR_POWER_LIMIT); // DRV 2
+Motor DRV3(13, 14, 16, MOTOR_POWER_LIMIT); // DRV 3
+Motor DRV4(6, 7, 4, MOTOR_POWER_LIMIT); // DRV 4
+Motor DRV5(8, 5, 9, 1.0); // DRV 5. For controlling arm height. Full power allowed as the actuator was originally run off this battery
+Motor DRV6(11, 12, 10, 12.0/MAX_SYSTEM_VOLTAGE); // DRV 6. For controlling leg width
 
-Motor armMot(8, 5, 9, 1.0); // DRV 5. For controlling arm height. Full power allowed as the actuator was originally run off this battery
-Motor legMot(11, 12, 10, 12.0/MAX_SYSTEM_VOLTAGE); // DRV 6. For controlling leg width
+Motor flMot = DRV2;
+Motor frMot = DRV6;
+Motor blMot = DRV4;
+Motor brMot = DRV5;
+
+Motor armMot = DRV3;
+Motor legMot = DRV1; // Not currently functional
 
 Motor driveMotors[] = {flMot, frMot, blMot, brMot};
 
@@ -85,6 +92,8 @@ void setup() {
   rollAx = new JoystickAxisLinear(roll_pin,58,1017,534);
   pitchAx = new JoystickAxisLinear(pitch_pin,67,1015,510);
   yawAx = new JoystickAxisLog(yaw_pin,46,741,56);
+
+  delay(1000);
 }
 
 void loop() {

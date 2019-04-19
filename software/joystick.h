@@ -5,7 +5,7 @@ public:
   int pin;
   int raw_min, raw_max, raw_center;
   double center;
-  double deadband = 0.1;
+  double deadband = 0.2;
   bool update = false;
   
   double read() {
