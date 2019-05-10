@@ -3,6 +3,7 @@ private:
   int a, b, p, limit;
   int speed=0;
   bool enabled = false;
+  int dcc_delay = 10; // dynamic cross-current protection cycle
 
   void setDir () {
     if (speed > 0) {
@@ -41,6 +42,11 @@ public:
   }
  
   void setSpeed (float s) {
+    if (s*speed < 0) { // dynamic cross-current protection cycle
+      analogWrite(p, 0);
+      delayMicroseconds(dcc_delay);
+    }
+    
     speed = (int)map(s, -1.0, 1.0, -(double)limit, (double)limit);
     
     if (speed < -limit) speed = -limit;

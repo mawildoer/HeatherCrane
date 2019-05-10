@@ -13,7 +13,7 @@ int joystickAveragingCount=1;
 
 // Motors. Magic numbers are pin numbers
 const double MAX_SYSTEM_VOLTAGE = 27.0;
-const double MOTOR_POWER_LIMIT = 18.0 / MAX_SYSTEM_VOLTAGE; // Drill motor voltage / Battery voltage . Could be higher as the drill's max voltage is 21V
+const double MOTOR_POWER_LIMIT = 1.0; //18.0 / MAX_SYSTEM_VOLTAGE; // Drill motor voltage / Battery voltage . Could be higher as the drill's max voltage is 21V
 double motorSpeeds[4] = {0.0};
 double motorSpeedMatrix[4][3] = {
   {1,1,-1}, 
@@ -30,9 +30,9 @@ Motor DRV5(8, 5, 9, 1.0); // DRV 5. For controlling arm height. Full power allow
 Motor DRV6(11, 12, 10, 12.0/MAX_SYSTEM_VOLTAGE); // DRV 6. For controlling leg width
 
 Motor flMot = DRV2;
-Motor frMot = DRV6;
-Motor blMot = DRV4;
-Motor brMot = DRV5;
+Motor frMot = DRV3;
+Motor blMot = DRV5;
+Motor brMot = DRV6;
 
 Motor armMot = DRV3;
 Motor legMot = DRV1; // Not currently functional
